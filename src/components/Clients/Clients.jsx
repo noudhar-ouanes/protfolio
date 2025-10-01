@@ -83,7 +83,6 @@ const Clients = () => {
   return (
     <Container id='client'>
         <Slide direction="left">
-            {/* <span className="green">TÉMOIGNAGES</span> */}
             <h1 className="green">Témoignages</h1>
         </Slide>
         <Testimonials>

@@ -11,7 +11,6 @@ const About = ({ onClose }) => {
         
         <ImageContainer>
           <img
-            height="504"
             width="672"
             sizes="90%"
             style={{ maxWidth: '100%', objectFit:'contain' }} 
@@ -67,33 +66,23 @@ p{
 `;
 
 const Content = styled.div`
-  width: 672px; 
+  width: 100%;
+  max-width: 672px; 
   background: linear-gradient(159deg, rgb(45, 45, 58) 0%, rgb(43, 43, 53) 100%);
-  padding-left: 20px;
-  padding-right: 20px;padding-top: 20px;
-  padding-bottom: 20px;
-  flex:1
- 
-  
+  padding: 20px;
+  flex: 1;
 `;
 
 const LightColor = styled.div`
   width: 100%;
-  @media (max-width: 672px) {
-    width: 100%;
-  }
   display: flex; 
   flex-direction: row; 
   flex-wrap: wrap;
   background: linear-gradient(159deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.2) 100%);
-  padding:40px ;
+  padding: 20px;
   align-items: center;
+  justify-content: center;
   max-width: 1280px;
-  padding-left:60px
-  padding-right:60px
-
-  
-
 `;
 
 const ImageContainer= styled.div`
