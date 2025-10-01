@@ -19,7 +19,6 @@ const Header = () => {
   };
 
   const handleNavigateToSection = (section) => {
-    console.log('section: ', section);
    if( section==="about") {
       setBar(false);
       history('/about')
