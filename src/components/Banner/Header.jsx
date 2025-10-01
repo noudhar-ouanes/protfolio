@@ -18,17 +18,24 @@ const Header = () => {
     }
   };
 
-  const handleNavigateToHome = (text) => {
-    history('/');
-    setSectionMounted(text); 
-  };
+  const handleNavigateToSection = (section) => {
+    console.log('section: ', section);
+   if( section==="about") {
+      setBar(false);
+      history('/about')
+      }else
+    { setSectionMounted(section);
+      setBar(false);
+      history('/'); }
+};
+
 
   return (
     <Container bar={bar}>
       <Logo>
         <span className='green'>
           <img
-          onClick={() => handleNavigateToHome('home')}
+          onClick={() => handleNavigateToSection('home')}
             style={{ width: 50, height: 50 }}
             src="/musicHeart.png"
             alt="profile"
@@ -36,12 +43,12 @@ const Header = () => {
         </span>
       </Logo>
       <Nav bar={bar}>
-        <span><p onClick={() => handleNavigateToHome('home')}>Accueil</p></span>
-        <span><p onClick={()=>handleNavigateToHome('service')}>Cours</p></span>
-        <span><p onClick={() => handleNavigateToHome('project')}>Projects</p></span>
-        <span><p onClick={() => handleNavigateToHome('client')}>Témoignages</p></span>
-        <span><text><Link to="/about">À propos</Link></text></span>
-        <span><p onClick={() => handleNavigateToHome('footer')}>Contact</p></span>
+        <span><p onClick={() => handleNavigateToSection('home')}>Accueil</p></span>
+        <span><p onClick={()=>handleNavigateToSection('service')}>Cours</p></span>
+        <span><p onClick={() => handleNavigateToSection('project')}>Projects</p></span>
+        <span><p onClick={() => handleNavigateToSection('client')}>Témoignages</p></span>
+        <span><text><Link to="/about" onClick={() => handleNavigateToSection('about')}>À propos</Link></text></span>
+        <span><p onClick={() => handleNavigateToSection('footer')}>Contact</p></span>
       </Nav>
       <div
         onClick={() => setBar(!bar)}
@@ -75,12 +82,14 @@ const Container = styled.div`
     .bars {
       width: 40px;
       height: 40px;
-      position: relative;
+      position: fixed; 
+      top: 20px;      
+      right: 20px;    
       display: flex;
       align-items: center;
       justify-content: center;
       padding: 0.5rem;
-      z-index: 100;
+      z-index: 9999;
       .bar {
         position: absolute;
         width: 100%;
