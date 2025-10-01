@@ -6,7 +6,7 @@ const Card = (props) => {
   return (
     <Container>
         {Icon &&<span className='green'><Icon/></span>}
-        {img &&<img className='green' src={img}  style={{width:70 , height:70}} />}
+        {img &&<img className='green' src={img}  style={{width:70 , height:70}} alt="courses" />}
 
         <h1>{title}</h1>
         <p>{disc}</p>

@@ -40,7 +40,6 @@ function App() {
 
 export default App;
 
-const View = styled.div``;
 const Container = styled.div``;
 const HeaderContainer = styled.div`
   background: linear-gradient(159deg, rgb(45, 45, 58) 0%, rgb(43, 43, 53) 100%);
