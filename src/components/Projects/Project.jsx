@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Project = (props) => {
-    const { type, source, img, disc } = props.item;
+    const { type, source,  } = props.item;
     return (
         <Container className='project'>
             {type === 'image' ? (
@@ -17,12 +17,6 @@ const Project = (props) => {
                     Your browser does not support the video tag.
                 </video>
             )}
-            {/* <div className="disc">
-                <h1>Description</h1>
-                <p>{disc}
-                    <a href="/">demo</a>
-                </p>
-            </div> */}
         </Container>
     );
 };

@@ -105,10 +105,4 @@ const ImageContainer= styled.div`
 `
 
 
-const View = styled.div`
-  align-items: center;
-  justify-content: center;
-  align-self: center
-
-`
 export default About;
