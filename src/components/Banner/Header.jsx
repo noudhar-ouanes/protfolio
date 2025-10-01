@@ -44,7 +44,7 @@ const Header = () => {
       <Nav bar={bar}>
         <span><p onClick={() => handleNavigateToSection('home')}>Accueil</p></span>
         <span><p onClick={()=>handleNavigateToSection('service')}>Cours</p></span>
-        <span><p onClick={() => handleNavigateToSection('project')}>Projects</p></span>
+        <span><p onClick={() => handleNavigateToSection('project')}>Projets</p></span>
         <span><p onClick={() => handleNavigateToSection('client')}>Témoignages</p></span>
         <span><text><Link to="/about" onClick={() => handleNavigateToSection('about')}>À propos</Link></text></span>
         <span><p onClick={() => handleNavigateToSection('footer')}>Contact</p></span>

@@ -8,30 +8,28 @@ import { Slide } from 'react-awesome-reveal';
 let clients = [
     {
         name : "Fares Mhamdi",
-        position : "professeur de musique",
         img_url : "/fares.jpg",
         stars : 5,
         disc : `Cher professeur Nijed,
-        je tiens à vous exprimer toute ma gratitude et mes remerciements. Vous avez été le premier à m’accompagner dans mon parcours avec le piano, et grâce à vous j’ai appris beaucoup de choses précieuses que je garde encore aujourd’hui. Je n’oublierai jamais votre soutien, votre patience et vos encouragements. Vous avez été plus qu’un simple professeur, mais une véritable source d’inspiration. Je vous souhaite beaucoup de réussite et de bonheur au Canada, et j’espère avoir l’occasion de vous revoir un jour pour vous remercier en personne.`
+        je tiens à vous exprimer toute ma gratitude et mes remerciements. Vous avez été le premier à m’accompagner dans mon parcours avec le piano, et grâce à vous j’ai appris beaucoup de choses précieuses que je garde encore aujourd’hui. Grâce à vous je suis devenu un professeur de piano à mon tour. Je n’oublierai jamais votre soutien, votre patience et vos encouragements. Vous avez été plus qu’un simple professeur, mais une véritable source d’inspiration. Je vous souhaite beaucoup de réussite et de bonheur au Canada, et j’espère avoir l’occasion de vous revoir un jour pour vous remercier en personne.`
+    },
+    {
+        name : "Yosr Kalboussi",
+        img_url : "/yosr.jpg",
+        stars : 5,
+        disc : `A mon cher professeur mr Nijed, merci d’avoir su me motiver au fil des années et de m’avoir tant appris. 
+        Votre patience et votre bonne humeur m’a toujours encouragé à me surpasser. J’ai non seulement trouvé en vous un professeur formidable mais aussi un mentor  sur qui j’ai toujours pu compter. Vous avez su m’instruire les bases et les techniques mais plus encore vous m’avez appris à ressentir les morceaux au fil du temps. J’ai toujours tant admiré votre passion pour la musique et c’est grâce à vous qu’aujourd’hui encore j’essaie toujours de transmettre des émotions en jouant du piano à travers ma propre interprétation. 
+        Merci monsieur Nijed de m’avoir fait découvrir la magie du piano .Vous êtes le meilleur !`
     },
     {
         name : "Yanis Mrad",
-        position : "Etudiant",
         img_url : "/yanisMradImg.jpg",
         stars : 5,
-        disc : `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-        Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`
+        disc : ``
     },
-    {
-        name : "__",
-        position : "__",
-        img_url : "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
-        stars : 5,
-        disc : `feedback to add `
-    },
+    
      {
         name : "__",
-        position : "__",
         img_url : "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
         stars : 5,
         disc : `feedback to add `
