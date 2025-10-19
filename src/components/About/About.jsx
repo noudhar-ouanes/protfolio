@@ -22,7 +22,7 @@ const About = ({ onClose }) => {
         <Content>
           <h1 className="green">À propos de moi</h1>
           <p>
-          Je suis un enseignant de musique passionné et talentueux, spécialisé dans l'accordéon, avec plus de 13 ans d'expérience dans l'enseignement de la musique. Originaire de Tunisie, j'ai récemment déménagé au Canada pour poursuivre ma passion et partager mes connaissances musicales. Je suis diplômé de l'Institut Supérieur de Musique de Sousse, Tunisie, avec une licence en art de la musique et musicologie, ainsi qu'un baccalauréat en sciences expérimentales du Lycée Fattouma Bourguiba à Monastir.
+          Je suis un enseignant de musique passionné et talentueux, spécialisé dans l'accordéon, avec plus de 16 années d'expérience dans l'enseignement de la musique. Originaire de Tunisie, j'ai récemment déménagé au Canada pour poursuivre ma passion et partager mes connaissances musicales. Je suis diplômé de l'Institut Supérieur de Musique de Sousse, Tunisie, avec une licence en art de la musique et musicologie, ainsi qu'un baccalauréat en sciences expérimentales du Lycée Fattouma Bourguiba à Monastir.
           </p>
           
           <h1 className="green">Expérience d'enseignement</h1>

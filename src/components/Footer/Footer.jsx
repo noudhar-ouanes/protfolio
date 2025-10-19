@@ -30,7 +30,7 @@ const Footer = () => {
             <h1>Addresse:</h1>
           </Slide>
           <Slide direction="left">
-            <p>36 Avenue Sauriol appartement n°6 Laval H7N 3A6</p>
+            <p>9295 rue deu Saguenay H&R 2M5 saint léonard Montréal</p>
           </Slide>
         </div>
 
