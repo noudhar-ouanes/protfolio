@@ -12,7 +12,7 @@ const ProfComponent = () => {
             Bonjour <span className="green">je suis</span>
           </h2> */}
           <h1 className="gold">Nijed Wannes</h1>
-          <h3>Enseignant de Musique passionné et talentueux, spécialisé dans l'accordéon, avec plus de 13 ans
+          <h3>Enseignant de Musique passionné et talentueux, spécialisé dans l'accordéon, avec plus de 16 années
           d'expérience dans l'enseignement de la musique. Expert dans les techniques d'accordéon et de piano.</h3>
         
           {/* <button>Let's talk</button> */}
